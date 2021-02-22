@@ -1,0 +1,19 @@
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+.idea
+/public/fonts/
+/public/exports/
+/storage/framework/laravel-excel/
+/.idea/
+/package-lock.json
+/public/uploads/hop dong/

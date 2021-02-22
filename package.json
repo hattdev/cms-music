@@ -1,0 +1,45 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "npm run development -- --watch",
+        "watch-poll": "npm run watch -- --watch-poll",
+        "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --disable-host-check --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "prod": "npm run production",
+        "f-watch": "npm run production -- --watch",
+        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --config=node_modules/laravel-mix/setup/webpack.config.js"
+    },
+    "devDependencies": {
+        "axios": "^0.19",
+        "bootstrap": "^4.0.0",
+        "cross-env": "^7.0",
+        "css-loader": "^3.6.0",
+        "daterangepicker": "^3.1.0",
+        "jquery": "^3.2",
+        "laravel-mix": "^5.0.9",
+        "lodash": "^4.17.19",
+        "popper.js": "^1.12",
+        "resolve-url-loader": "^2.3.1",
+        "sass": "^1.29.0",
+        "sass-loader": "^8.0.0",
+        "style-loader": "^2.0.0",
+        "vue": "^2.5.17",
+        "vue-router": "^3.4.9",
+        "vue-template-compiler": "^2.6.10"
+    },
+    "dependencies": {
+        "@casl/ability": "^4.1.6",
+        "@casl/vue": "^1.1.1",
+        "@fortawesome/fontawesome-free": "^5.15.1",
+        "@tinymce/tinymce-vue": "^3.2.6",
+        "bootbox": "^5.5.1",
+        "core-js": "^2.6.11",
+        "ionicons": "^4.6.3",
+        "vue-bootstrap4-table": "^1.1.11",
+        "vue-select": "^3.10.8",
+        "vue-upload-component": "^2.8.20",
+        "vuedraggable": "^2.23.2",
+        "vuex": "^3.5.1"
+    }
+}
