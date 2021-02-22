@@ -8,4 +8,5 @@ use Modules\Media\Models\Media;
 class FileUpload extends Media
 {
     //
+
 }
